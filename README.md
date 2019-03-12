@@ -38,7 +38,7 @@ semantics described above.
 
 I do no error handling, so expect the interpreter to crash on I/O.
 
-## HELLO WORLD!
+### Sample Program: HELLO WORLD!
 
     ++++++++>+++++++++[->>>[->>+>+>]>>>[->+>>>]
 	>>]>.---.+++++++..+++.+[-->+>>>]>--------.[-
