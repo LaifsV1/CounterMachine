@@ -3,8 +3,8 @@ Here is an interpreter for a 4-counter machine language I call `C4`. It's
 based on Brainfuck syntax. The interpreter is written in OCaml.
 
 Given two counters can emulate a stack of 1s and 0s, four counters are
-capable of emulating a Turing Machine with alphabet {0,1}. In fact,
-two counters are enough to be Turing Complete by simulating four
+capable of emulating a Turing Machine with alphabet `{0,1}`. Two counters 
+are actually enough to be Turing Complete, done by simulating four
 counters using two, but that would make programming very hard.
 
 ## Compiling the C4 interpreter
