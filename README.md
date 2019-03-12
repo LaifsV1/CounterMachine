@@ -31,7 +31,7 @@ The following commands are available:
 - `,` waits for user to input an ASCII character up to 127 (>127 = 127)
 
 Internally, the interpreter implements an abstract machine for the
-4-counter machine. The abstract machine is based on a 4-tuple
+4-counter machine. The abstract machine is uses a tuple
 `(r1,r2,r3,r4,s1,s2)` which contains four counters and 2 program
 stacks that contain the commands to run. Transitions implement the
 semantics described above.
