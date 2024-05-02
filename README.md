@@ -1,6 +1,6 @@
 # C4: A 4-Counter Machine Language
 Here is an interpreter (or emulator) for a 4-counter machine language I
-call `C4`. It's based on Brainfuck syntax. The interpreter is written in OCaml.
+call `C4`. It's based on [BF](https://en.wikipedia.org/wiki/Brainfuck) syntax. The interpreter is written in OCaml.
 
 Given two counters can emulate a stack of 1s and 0s, four counters are
 capable of emulating a Turing Machine with alphabet `{0,1}`. Two counters 
